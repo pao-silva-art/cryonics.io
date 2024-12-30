@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cryonics Simulation
+        </title>
+        <link rel="stylesheet" href="cryonics.css">
+    </head>
+    <body>
+        <div id="bg">
+            <img src="bg/cryonicsBG.png" class="stretch" alt="">
+        </div>
+        <!--<img src="hoverBG.png" id="hoverBG" class="stretch">-->
+        <img src="hotspots/hotspot1.png" id="hotspot1" class="stretch">
+        <img src="hotspots/hotspot2.png" id="hotspot2" class="stretch">
+        <img src="hotspots/hotspot3.png" id="hotspot3" class="stretch">
+        <img src="hotspots/hotspot4.png" id="hotspot4" class="stretch">
+        <img src="hotspots/hotspot5.png" id="hotspot5" class="stretch">
+        <img src="hotspots/hotspot6.png" id="hotspot6" class="stretch">
+        <img src="hotspots/hotspot7.png" id="hotspot7" class="stretch">
+        <img src="hotspots/hotspot8.png" id="hotspot8" class="stretch">
+        <img src="hotspots/hotspot9.png" id="hotspot9" class="stretch">
+        <img src="hotspots/hotspot10.png" id="hotspot10" class="stretch">
+        <img src="hotspots/hotspot11.png" id="hotspot11" class="stretch">
+        <img src="hotspots/hotspot12.png" id="hotspot12" class="stretch">
+        <img src="hotspots/hotspot13.png" id="hotspot13" class="stretch">
+        <img src="hotspots/hotspot14.png" id="hotspot14" class="stretch">
+        <img src="hotspots/hotspot15.png" id="hotspot15" class="stretch">
+        <img src="hotspots/hotspot16.png" id="hotspot16" class="stretch">
+        <img src="hotspots/hotspot17-59x52.png" id="hotspot17" class="stretch">
+        <img src="hotspots/hotspot18_7x13.png" id="hotspot18" class="stretch">
+        <img src="hotspots/hotspot19-41x74.png" id="hotspot19" class="stretch">
+        <img src="hotspots/hotspot20-70x83.png" id="hotspot20" class="stretch">
+        <img src="hotspots/hotspot21-52x90.png" id="hotspot21" class="stretch">
+        <div id="popUp">
+            <h1>You are manager of a Cryonics facility with twenty-one frozen customers. <!--Luckily for you, medicine has cured all diseases,
+                reworked all injuries and, in some cases, reduced aging!--> Science has just
+                discovered how to reanimate humans after cryogenic freezing. Unfortunately, you only have enough resources
+                to resurrect one client. Each icon represents a life. Choose wisely!
+            </h1>
+        </div>
+        <div id="infoPatient">
+            <h1>Info about patients goes here.</h1>
+        </div>
+        <div id="fadeOut">
+            <div id="ending1">
+                <h2>Ryder Hawk wakes up from his slumber. He works on his lifelong dream: a business that combines 4DX Cinema with rollerskating drive-ins. 
+                    It is a commercial disaster. 
+                    Before, a legend of "cool", he is now disgraced as the lamest person ever. 
+                    He drinks himself to death.
+                    In his dying breath he cursed you for ever toying with nature. He blamed you for his downfall. 
+                    The first time he died, everyone seemed to think of him; now, no one remembers him.
+                    Still, you conclude, living is beautiful, people are capable of good, and everyone deserves a second chance. </h2>
+            </div>
+            <div id="ending2">
+                <h2>Connor wakes up from his slumber. His vending machine related death gets him on all the morning talk across the country.
+                    The American public discovers his snappy sense of humor. He becomes a stand-up comedian thanks to his iconic "vending machine"
+                    bit. He produces an internet podcast where he reviews vending machines around the world. He uses his vending machine fame
+                    to perform a crypto scam. He fades into obscurity.
+                    Still, you conclude, living 
+                    is beautiful, people are capable of good, and everyone deserves a second chance.
+                </h2>
+            </div>
+            <div id="ending3">
+                <h2>Marnie wakes up from her slumber. She decides to take her death into the world of fine art. Her performance piece,
+                    "Fitting Room", where she pretends to be cryogenically frozen once more, is a sensation worldwide. 
+                    Thus, you conclude, living is beautiful, people are capable of good, and everyone deserves a second chance.  
+                </h2>
+            </div>
+            <div id="ending4">
+                <h2>Tom wakes up from his slumber. He enacts a worldwide campaign to exterminate bananas. The world's biological structure
+                    collapses, and planet Earth is deemed unlivable. Tom, now a billionaire, is one of the few onboard the Emergency shuttle on
+                    road to Mars. Through some strange coincidence, the last Earthlings discover, that the only food onboard the shuttle is a banana.
+
+                </h2>
+            </div>
+            <div id="ending5">
+                <h2>John wakes up from his slumber. Actually, he had no idea he died. He demands to see the rest of Sonic 3. He concludes the film is 
+                    a piece of garbage. He lives his life as if nothing had changed. 
+                </h2>
+            </div>
+            <div id="ending6">
+                <h2>Melissa wakes up from her slumber. She goes on a shopping spree to celebrate being alive again. She does this for six weeks straight.
+                    Exhausting her life savings after buying too many Demonias and Moon Boots, she is disowned by her parents.
+                    Years later, she speaks to high school students around the country about the importance of budgeting, and the dangers of
+                    the fast fashion world. 
+                    Still, you conclude, living 
+                    is beautiful, people are capable of good, and everyone deserves a second chance. 
+                </h2>
+            </div>
+            <div id="ending7">
+                <h2>Andrew wakes up from his slumber. He makes a cartoon about a zombie robot JFK. It is a big success. Some say it kickstarted
+                    the TV animation renaissance. You get an animation award named after you. You conclude, living 
+                    is beautiful, people are capable of good, and everyone deserves a second chance. 
+                </h2>
+            </div>
+            <div id="ending8">
+                <h2>Mary wakes up from her slumber. She is back to making her cherry pie, in a small town in rural Montana,
+                    when a mysterious investigation takes place. An FBI agent with a sweet-tooth happens to pass through her establishment,
+                    ordering a slice. He is enchanted by the recipe, and Mary's pie becomes world famous. In her anticipated cook book, she
+                    reveals the recipe was given to her by a pair of interdimensional entities from a checkerboard chamber, in a place
+                    where "the wind sounds different".
+                    You conclude, living 
+                    is beautiful, people are capable of good, and everyone deserves a second chance.  
+                </h2>
+            </div>
+            <div id="ending9">
+                <h2>Daniel wakes up from his slumber. He finds out that a certain YouTube channel called his music "derivative pastiche of
+                    Midwest Emo", and now most people consider him a hack. He becomes a noise artist, on his search for "that death screech sound."
+                    He now performs in abandoned nail salons.  
+                </h2>
+            </div>
+            <div id="ending10">
+                <h2>The bug cult wins. The world is run by bugs. You have long forgotten a world without bugs.
+                    Bzz bzz bzz!!  
+                </h2>
+            </div>
+            <div id="ending11">
+                <h2>Gerardo sees the future: you will forget to submit that assignment! Hmm yes, and you will trip on an uneven chunk
+                    of sidewalk... Hmmm, and yes, you will scan a QR code in a nearby restaurant!
+                </h2>
+            </div>
+            <div id="ending12">
+                <h2>William wakes up from his slumber. He claims that in his cryonic sleep, he became a crow, and he discovered how to
+                    program a murder of crows to perform heists for him. Months later, Leonardo's <i>Mona Lisa</i> goes missing. William
+                    disappears too...
+                </h2>
+            </div>
+            <div id="ending13">
+                <h2>Mia wakes up from her slumber. She lives to be 180 years old! But she never relives the high of her world record...
+                    Still, you conclude, living is beautiful, people are capable of good, and everyone deserves a second chance.
+                </h2>
+            </div>
+            <div id="ending14">
+                <h2>I'm out of ideas. Joke's on you for picking this one...
+                </h2>
+            </div>
+            <div id="ending15">
+                <h2>Jimbo wakes up from his slumber. He gets impaled by another railroad spike.
+                    Maybe life is worthless...</h2>
+            </div>
+            <div id="ending16">
+                <h2>Francoise wakes up from her slumber. To everyone's shock, she abandons French cinema and enters the world
+                    of net art. Her first ever piece, and perhaps her poorest too, is a simulation of a cryonics facility, where
+                    the user must pick only one customer to save.
+                </h2>
+            </div>
+            <div id="ending17">
+                <h2>David wakes up from his slumber. He tries to move on from the way he died but no one lets him. He stars in two more
+                    Quentin Tarantino films, the second of which he, in a metafictional way, subverts expectations by not dying due to
+                    autoerotic asphyxiation. Trust me, it makes sense if you watch the movie... Thus, you conclude, living is beautiful, 
+                    people are capable of good, and everyone deserves a second chance. 
+                </h2>
+            </div>
+            <div id="ending18">
+                <h2>Olivia wakes up from her slumber. She is contacted by an avant-garde chef, urging her to try his new "deconstructed" hot dog,
+                    a new dish in his populist, kitsch series. Olivia, still confronting her recent fear of hot dogs, decides to try it. She
+                    discovers, to her dismay, that no matter how much better the chef's dish tastes, how sophisticated it is, and how elegant
+                    its display looks, nothing compares to the simple delight of a plain hot dog. It dawns on her, at the same time, that her
+                    fear will never allow her to have another one ever again. With that tragedy in mind, she sheds a tear.
+                    Still, you conclude, living is beautiful, people are capable of good, and everyone deserves a second chance.
+                </h2>
+            </div>
+            <div id="ending19">
+                <h2>Benjamin wakes up from his slumber. He discovers his murderer paid off his family out of court, and he is now entitled to that
+                    cash sum. He goes to Vegas and rekindles his gambling addiction. He undergoes many procedures to reverse the aging process.
+                    He now has three 25 year old girlfriends. A few years later after the thaw, the dies of autoerotic asphyxiation. Still, you 
+                    conclude, living is beautiful, people are capable of good, and everyone deserves a second chance.
+                </h2>
+            </div>
+            <div id="ending20">
+                <h2>Jared wakes up from his slumber. Or did he? You discover that Jared was never frozen at all: it was but a wax replica of his 
+                    body, set to distract the world from discovering his true enterprise. Somewhere in Argentina, the true Jared wakes, in a
+                    legitimate cryonics facility. Yes, it turns out, there was no miscalculation: Jared intentionally set his customers to fail,
+                    and created the scam to fill his pockets. In the true facility, all patients awake, leaving the world and its history
+                    in uncertain hands... Walt Disney's (not) Frozen.
+                    Living is beautiful, people are capable of good, and everyone deserves a second chance...? 
+                </h2>
+            </div>
+            <div id="ending21">
+                <h2>Milo wakes up from his slumber. He is sad to find out most of his friends and family members are now dead.
+                Yet, he is overwhelmed with the love people had for him while he was gone. Cured of his tumor, he lives a normal teenage life.
+                He has his first retail job. He goes to college. He falls in love. He cherishes each minute he has after the thaw.
+            When he holds his newborn daughter, he thinks of you.
+            Thus, you conclude, living is beautiful, people are capable of good, and everyone deserves a second chance.  </h2>
+            </div>
+            
+        </div>
+        <div id="BlackCover">
+        </div>
+        
+    <script>
+       window.onload = function() {
+           //Set initial animation state
+             document.getElementById("popUp").style.opacity = "1";
+             document.getElementById("BlackCover").style.zIndex = "98";
+
+             //10 seconds to read the thing
+            setTimeout(function() {
+             document.getElementById("popUp").style.opacity = "0";
+             document.getElementById("popUp").style.zIndex = "-99"; 
+             document.getElementById("BlackCover").style.zIndex = "-99"; 
+            }, 10000); // 10 seconds in milliseconds
+        };
+       
+       document.getElementById("hotspot1").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Ryder Hawk, died age 64. He was just too cool.</h1>"
+        });
+
+        document.getElementById("hotspot1").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+       
+       document.getElementById("hotspot2").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Connor, died age 52, struck by a falling vending machine.</h1>"
+        });
+
+        document.getElementById("hotspot2").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot3").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Marnie, died age 34 of heatstroke in a Nordstrom Rack fitting room.</h1>"
+        });
+
+        document.getElementById("hotspot3").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+       
+       document.getElementById("hotspot4").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Tom slipped on a banana peel. He was 55. </h1>"
+        });
+
+        document.getElementById("hotspot4").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+       
+       document.getElementById("hotspot5").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>John died of a heart attack while watching Sonic the Hedgehog 2. He was 44. </h1>"
+        });
+
+        document.getElementById("hotspot5").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+       
+       document.getElementById("hotspot6").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Melissa died in line at the Brandy Melville in Newbury Street. She was 19.</h1>"
+        });
+
+        document.getElementById("hotspot6").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+       
+       document.getElementById("hotspot7").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Andrew, died of a neurodegenerative illness at the age of 67. He was a cartoon showrunner.</h1>"
+        });
+
+        document.getElementById("hotspot7").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot8").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Mary died of Parkinson's disease. All she ever wanted was to make pies.</h1>"
+        });
+
+        document.getElementById("hotspot8").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot9").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Daniel was the frontman of the greatest band ever. He died age 27; a piano fell on his head.</h1>"
+        });
+
+        document.getElementById("hotspot9").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot10").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Megan tried to start a cult about bugs. She failed and was killed by her followers at the age of 51.</h1>"
+        });
+
+        document.getElementById("hotspot10").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot11").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Gerardo died age 35, of sepsis. He was said to be a prophet.</h1>"
+        });
+
+        document.getElementById("hotspot11").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot12").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>William died age 48. He published a book about how to speak with crows.</h1>"
+        });
+
+        document.getElementById("hotspot12").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+
+       document.getElementById("hotspot13").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Mia died age 99. She had the world record for the longest toenails.</h1>"
+        });
+
+        document.getElementById("hotspot13").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot14").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Lucas was an oil tycoon. He died age 63 due to liver damage.</h1>"
+        });
+
+        document.getElementById("hotspot14").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot15").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Jimbo, died age 47, impaled by a railroad spike.</h1>"
+        });
+
+        document.getElementById("hotspot15").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot16").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Francoise, film actress, died age 25, in a car accident.</h1>"
+        });
+
+        document.getElementById("hotspot16").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot17").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>David, died age 72, due to autoerotic asphyxiation.</h1>"
+        });
+
+        document.getElementById("hotspot17").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot18").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Olivia, died when she was 38. She choked on a hot dog.</h1>"
+        });
+
+        document.getElementById("hotspot18").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+       document.getElementById("hotspot19").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Benjamin, famous horse jockey, died age 81. He was stabbed to death by a neighbor.</h1>"
+        });
+
+        document.getElementById("hotspot19").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+        document.getElementById("hotspot20").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Jared, died age 68, due to pancreatic cancer. Founder of the company, and first customer.</h1>"
+        });
+
+        document.getElementById("hotspot20").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+
+        document.getElementById("hotspot21").addEventListener("mouseenter", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Milo died at age 14 due to an aggressive brain tumor.</h1>"
+        });
+
+        document.getElementById("hotspot21").addEventListener("mouseleave", function () {
+        document.getElementById("infoPatient").innerHTML = "<h1>Info about patients goes here</h1>"
+        });
+       
+        document.getElementById("hotspot1").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending1").style.opacity = "1";
+            document.getElementById("ending1").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot2").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending2").style.opacity = "1";
+            document.getElementById("ending2").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot3").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending3").style.opacity = "1";
+            document.getElementById("ending3").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot4").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending4").style.opacity = "1";
+            document.getElementById("ending4").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot5").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending5").style.opacity = "1";
+            document.getElementById("ending5").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot6").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending6").style.opacity = "1";
+            document.getElementById("ending6").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot7").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending7").style.opacity = "1";
+            document.getElementById("ending7").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot8").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending8").style.opacity = "1";
+            document.getElementById("ending8").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot9").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending9").style.opacity = "1";
+            document.getElementById("ending9").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot10").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending10").style.opacity = "1";
+            document.getElementById("ending10").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot11").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending11").style.opacity = "1";
+            document.getElementById("ending11").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot12").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending12").style.opacity = "1";
+            document.getElementById("ending12").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot13").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending13").style.opacity = "1";
+            document.getElementById("ending13").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot14").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending14").style.opacity = "1";
+            document.getElementById("ending14").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot15").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending15").style.opacity = "1";
+            document.getElementById("ending15").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot16").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending16").style.opacity = "1";
+            document.getElementById("ending16").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot17").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending17").style.opacity = "1";
+            document.getElementById("ending17").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot18").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending18").style.opacity = "1";
+            document.getElementById("ending18").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot19").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending19").style.opacity = "1";
+            document.getElementById("ending19").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot20").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending20").style.opacity = "1";
+            document.getElementById("ending20").style.zIndex = "99";
+       };
+
+       document.getElementById("hotspot21").onclick = function() {
+            console.log("Hotspot clicked");
+            document.getElementById("fadeOut").style.zIndex = "99";
+            document.getElementById("fadeOut").style.opacity = "1";
+            document.getElementById("ending21").style.opacity = "1";
+            document.getElementById("ending21").style.zIndex = "99";
+       };
+
+    </script>
+    </body>
+</html>
